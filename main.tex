@@ -1,0 +1,210 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    \textbf{\Huge \scshape Joshua Hizgiaev} \\ \vspace{1pt}
+    \small 646-732-6568 $|$ \href{mailto:jhizgiae@stevens.edu}{\underline{jhizgiae@stevens.edu}} $|$ 
+    \href{https://linkedin.com/in/joshuahizgiaev/}{\underline{linkedin.com/in/joshuahizgiaev/}} $|$
+    \href{https://github.com/Josh-Hiz}{\underline{github.com/Josh-Hiz}} $|$
+    \href{https://www.theautomata.net/}{\underline{www.theautomata.net}}
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Stevens Institute of Technology}{Hoboken, NJ}
+      {Bachelor of Science in Computer Science}{Expected May 2025}
+    \resumeSubItem{\textbf{Scholarships \& Awards: }Edwin A. Stevens Scholarship, Dean's List: Fall 2022, Spring 2023 \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textit{GPA: 3.9/4.0}}
+    \resumeSubItem{\textbf{Relevant Coursework }Data-Structures, Discrete Mathematics, Linear Algebra, Probability and Statistics, Computer Architecture, Algorithms, Multivariable Calculus, Vectors and Matrices}
+  \resumeSubHeadingListEnd
+
+%
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: Java, Python, C/C++, JavaScript, HTML/CSS, Latex, Scheme/Racket} \\
+     \textbf{Frameworks}{: Node.js, Flask, JUnit, Vite.js, Plotly Dash, Django} \\
+     \textbf{Libraries}{: pandas, NumPy, Matplotlib, Scipy, PyTorch, Yahoo Finance API, Plotly, Seaborn, NLTK, HuggingFace}
+     \textbf{Operating Systems}{: Microsoft Windows, UNIX, MacOS, Ubuntu Linux, Fedora Linux}
+    }}
+ \end{itemize}
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Undergraduate Research Intern}{June 2023 -- August 2023}
+      {Stevens Institute of Technology}{Hoboken, NJ}
+      \resumeItemListStart
+        \resumeItem{Perform data analysis on 5 terabytes of U.S. economic and employment data using Python scientific libraries: Pandas, SciPy, NumPy, and Matplotlib.}
+        \resumeItem{Produce a Cumulative Frequency and Comparison Analysis on LightCast U.S. employment database to analyze the growth of Data Science skills}
+        \resumeItem{Create a BiDirectional Recurrent Neural Network with PyTorch for a multiclass text classification model to take as input U.S. job advertisements and output the desired skill and industry of a job.}
+      \resumeItemListEnd
+      
+% -----------Multiple Positions Heading-----------
+%    \resumeSubSubheading
+%     {Software Engineer I}{Oct 2014 - Sep 2016}
+%     \resumeItemListStart
+%        \resumeItem{Apache Beam}
+%          {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines}
+%     \resumeItemListEnd
+%    \resumeSubHeadingListEnd
+%-------------------------------------------
+    \resumeSubheading
+      {Undergraduate Research Assistant}{April 2023 -- August 2023}
+      {Stevens Institute of Technology}{Hoboken, NJ}
+      \resumeItemListStart
+        \resumeItem{Perform static site generation performance testing using Sphinx and Hugo static site generation.}
+        \resumeItem{Create custom RestructuredText directives using JavaScript and server scripts with Python and JavaScript}
+        \resumeItem{Contributed 20K+ lines of code to an established codebase via Git}
+        \resumeItem{Implement a full textbook static site using Sphinx documentation generation as proof-of-concept}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{\href{https://etextbook.eric.si/}{SGB-Courses}} $|$ \emph{Python, Sphinx, Web-Assembly, Pyodide, HTML/CSS, JavaScript}}{June 2023 -- August 2023}
+          \resumeItemListStart
+            \resumeItem{Developed a client-side Text-Book site with Sphinx statically serving Python code challenge IDE, Quiz Generator, and Python REPL web applications used by graduate Introduction to Computer Science students}
+            \resumeItem{Utilize \textbf{Web-Assembly, JavaScript}, and \textbf{HTML/CSS} to implement a Python IDE to run statically served test scripts similar to that of LeetCode for coding challenges}
+            \resumeItem{Deployed to production, is used by \textbf{50+} graduate students at Stevens Institute of Technology}
+          \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{StockoBot} $|$ \emph{Python, Discord.py, Matplotlib, Pandas, Financial Statistics, Plotly}}{May 2023 -- Present}
+          \resumeItemListStart
+            \resumeItem{Developed a Real-Time Financial Statistics and Quantitative Analysis Discord bot in \textbf{Python} and \textbf{Pycord}}
+            \resumeItem{Published Discord bot on GitHub and used in servers with over \textbf{700+} users}
+            \resumeItem{Implemented \textbf{Real-Time stock tickers} for all avaliable tickers on Yahoo Finance featuring Open, Close, Volume, High, Low, and percent change}
+            \resumeItem{Utilized \textbf{Matplotlib} and \textbf{Plotly} so users can query plots for stock performance, historical volatility, MACD, Sharpe-Ratio, and Sortino Ratio}
+          \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{StockoDash} $|$ \emph{Python, Django, Portfolio Analysis, PyTorch, Plotly Dash, Plotly}}{July 2023 -- Present}
+          \resumeItemListStart
+            \resumeItem{Developed a \textbf{Django/Plotly Dash} web application to provide users a full \textbf{quantitative analysis} of their financial portfolio}
+            \resumeItem{Utilized \textbf{HTML, JavaScript,} and \textbf{Python} to provide users complete overview of portfolio performance including \textbf{ETF Analysis, Asset Allocation, Portfolio Gross}, Portfolio Net, and Benchmark}
+            \resumeItem{Provide users sample \textbf{Portfolio Optimization} using \textbf{PyTorch} and provide Stock Forecasting using PyTorch in time series}
+            \resumeItem{Utilize Python Plotly and Plotly Dash to provide users an overview of their portfolio composition including Sharpe Ratio}
+          \resumeItemListEnd
+    \resumeSubHeadingListEnd
+
+%-------------------------------------------
+\end{document}
