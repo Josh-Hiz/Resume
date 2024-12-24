@@ -5,7 +5,7 @@
 % License : MIT
 %------------------------
 
-\documentclass[letterpaper,11pt]{article}
+\documentclass[letterpaper,10pt]{article}
 
 \usepackage{latexsym}
 \usepackage[empty]{fullpage}
@@ -54,7 +54,7 @@
 
 % Sections formatting
 \titleformat{\section}{
-  \vspace{-4pt}\scshape\raggedright\large
+  \vspace{-5pt}\scshape\raggedright\large
 }{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
 
 % Ensure that generate pdf is machine readable/ATS parsable
@@ -114,7 +114,8 @@
 
 \begin{center}
     \textbf{\Huge \scshape Joshua Hizgiaev} \\ \vspace{1pt}
-    \small Phone-Number $|$ \href{mailto:jhizgiae@stevens.edu}{\underline{jhizgiae@stevens.edu}} $|$ 
+    Software Engineer and Quantitative Developer\\
+     \href{mailto:jhizgiae@stevens.edu}{\underline{jhizgiae@stevens.edu}} $|$ 
     \href{https://linkedin.com/in/joshuahizgiaev/}{\underline{linkedin.com/in/joshuahizgiaev/}} $|$
     \href{https://github.com/Josh-Hiz}{\underline{github.com/Josh-Hiz}} $|$
     \href{https://www.theautomata.net/}{\underline{www.theautomata.net}}
@@ -126,9 +127,9 @@
   \resumeSubHeadingListStart
     \resumeSubheading
       {Stevens Institute of Technology}{Hoboken, NJ}
-      {Bachelor of Science in Computer Science}{Expected May 2025}
-    \resumeSubItem{\textbf{Scholarships \& Awards: }Edwin A. Stevens Scholarship, Dean's List: Fall 2022, Spring 2023 \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textit{GPA: 3.9/4.0}}
-    \resumeSubItem{\textbf{Relevant Coursework }Data-Structures, Discrete Mathematics, Linear Algebra, Probability and Statistics, Computer Architecture, Algorithms, Multivariable Calculus, Vectors and Matrices}
+      {Bachelor of Science in Computer Science}{Expected May 2026}
+    \resumeSubItem{\textbf{Scholarships \& Awards: }Edwin A. Stevens Scholarship, Dean's List: Fall 2022-Spring 2024 \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textit{GPA: 3.94/4.0}}
+    \resumeSubItem{\textbf{Relevant Coursework }Data-Structures, Databases, Systems Programming, Probability and Statistics, Computer Architecture, Algorithms, Concurrent Programming, Theory of Computation, Operating Systems, Numerical Linear Algebra}
   \resumeSubHeadingListEnd
 
 %
@@ -136,24 +137,34 @@
 \section{Technical Skills}
  \begin{itemize}[leftmargin=0.15in, label={}]
     \small{\item{
-     \textbf{Languages}{: Java, Python, C/C++, JavaScript, HTML/CSS, Latex, Scheme/Racket} \\
-     \textbf{Frameworks}{: Node.js, Flask, JUnit, Vite.js, Plotly Dash, Django} \\
-     \textbf{Libraries}{: pandas, NumPy, Matplotlib, Scipy, PyTorch, Yahoo Finance API, Plotly, Seaborn, NLTK, HuggingFace}
-     \textbf{Operating Systems}{: Microsoft Windows, UNIX, MacOS, Ubuntu Linux, Fedora Linux}
+     \textbf{Programming}{: Java, Python, C\#, C/C++, JavaScript, HTML/CSS, Racket, SQL,  ARM64 Assembly, OCaml, Erlang} \\
+     \textbf{Technologies}{: Docker, Azure, Git, Google Cloud, Anaconda, Apache/Spark, Databricks, Dot Net, Jupyter, WASM} \\
+     \textbf{Libraries}{: Pandas, NumPy, Matplotlib, SciPy, PyTorch, Plotly, Seaborn, HuggingFace, OpenAI, ASP.NET, DeltaLake, PySpark} \\
+     \textbf{IT}{: Microsoft Windows, UNIX, MacOS, Linux, Google Cloud Suite, VMWare, Azure DevOps Server}
     }}
  \end{itemize}
 
 %-----------EXPERIENCE-----------
 \section{Experience}
   \resumeSubHeadingListStart
+  \resumeSubheading
+      {Software Engineer Intern}{May 2024 - August 2024}
+      {PanAgora Asset Management}{Boston, MA}
+      \resumeItemListStart
+        \resumeItem{Design and implement a \textbf{C\# ASP.NET} REST API back-end to allow quantitative researchers to run tasks in parallel using Azure Batch, increasing the speed of scheduling jobs by over \textbf{500\%}, used by over \textbf{30-40+} quantitative researchers}
+        \resumeItem{Built a \textbf{Python library} with the Azure SDK to allow quantitative researchers to write/read from an Azure Data LakeHouse using \textbf{Rust DeltaLake-rs} and \textbf{asynchronous threading} to write/read \textbf{100K+ files/per hour}, supporting SQL queries.}
+        \resumeItem{Implemented \textbf{high-performance C\#} and Python applications using \textbf{OOP design patterns} such as Singleton, Abstract Factory, and Composite, as well as MVC principles with dependency injection and options pattern.}
+        \resumeItem{Research and design efficient back-end web application using ASP.NET, to reduce the time for model training by over \textbf{50\%}.}
+      \resumeItemListEnd
 
     \resumeSubheading
       {Undergraduate Research Intern}{June 2023 -- August 2023}
-      {Stevens Institute of Technology}{Hoboken, NJ}
+      {Stevens Institute of Artificial Intelligence and Columbia University}{Hoboken, NJ}
       \resumeItemListStart
-        \resumeItem{Perform data analysis on 5 terabytes of U.S. economic and employment data using Python scientific libraries: Pandas, SciPy, NumPy, and Matplotlib.}
-        \resumeItem{Produce a Cumulative Frequency and Comparison Analysis on LightCast U.S. employment database to analyze the growth of Data Science skills}
-        \resumeItem{Create a BiDirectional Recurrent Neural Network with PyTorch for a multiclass text classification model to take as input U.S. job advertisements and output the desired skill and industry of a job.}
+        \resumeItem{Perform data analysis/collection with \textbf{PostGreSQL} on \textbf{5 TB} of U.S. employment data using Pandas/SciPy/NumPy/MPL}
+        \resumeItem{Produce cumulative frequency analysis on the LightCast database to analyze the growth of \textbf{21 data science skills}}
+        \resumeItem{Named Co-Researcher for NSF research project awarded over \textbf{10 million dollars} distributed between Columbia and Stevens}
+        \resumeItem{Create a \textbf{BiDirectional Recurrent Neural Network} for multiclass text classification model with average \textbf{70\% accuracy} when training on \textbf{6GB} of U.S. Job advertisement data to predict job skills based on the advertisement}
       \resumeItemListEnd
       
 % -----------Multiple Positions Heading-----------
@@ -169,10 +180,10 @@
       {Undergraduate Research Assistant}{April 2023 -- August 2023}
       {Stevens Institute of Technology}{Hoboken, NJ}
       \resumeItemListStart
-        \resumeItem{Perform static site generation performance testing using Sphinx and Hugo static site generation.}
-        \resumeItem{Create custom RestructuredText directives using JavaScript and server scripts with Python and JavaScript}
-        \resumeItem{Contributed 20K+ lines of code to an established codebase via Git}
-        \resumeItem{Implement a full textbook static site using Sphinx documentation generation as proof-of-concept}
+        \resumeItem{Design and implement a textbook website for \textbf{100+} graduate intro to computer science students using static site generation.}
+        \resumeItem{Implement a client-side virtual file system in \textbf{C} and Web-Assembly Emscripten to host static Python test scripts used in code challenge testing for a client-side Python IDE}
+        \resumeItem{Contributed \textbf{20K+} lines of code to an established codebase via Git}
+        \resumeItem{Produce client-side \textbf{Web-Assembly} tools including a Python IDE and Python REPL using \textbf{JS/HTML/CSS}, and \textbf{C}}
       \resumeItemListEnd
 
   \resumeSubHeadingListEnd
@@ -182,29 +193,28 @@
 \section{Projects}
     \resumeSubHeadingListStart
       \resumeProjectHeading
-          {\textbf{\href{https://etextbook.eric.si/}{SGB-Courses}} $|$ \emph{Python, Sphinx, Web-Assembly, Pyodide, HTML/CSS, JavaScript}}{June 2023 -- August 2023}
+          {\textbf{\href{https://cs515s2024.greenberg.science/}{SGB-Courses}} $|$ \emph{Python, Sphinx, Web-Assembly, Pyodide, HTML/CSS, JavaScript}}{June 2023 -- August 2023}
           \resumeItemListStart
             \resumeItem{Developed a client-side Text-Book site with Sphinx statically serving Python code challenge IDE, Quiz Generator, and Python REPL web applications used by graduate Introduction to Computer Science students}
             \resumeItem{Utilize \textbf{Web-Assembly, JavaScript}, and \textbf{HTML/CSS} to implement a Python IDE to run statically served test scripts similar to that of LeetCode for coding challenges}
-            \resumeItem{Deployed to production, is used by \textbf{50+} graduate students at Stevens Institute of Technology}
+            \resumeItem{Deployed to production, is used by \textbf{100+} graduate students at Stevens Institute of Technology}
           \resumeItemListEnd
       \resumeProjectHeading
           {\textbf{StockoBot} $|$ \emph{Python, Discord.py, Matplotlib, Pandas, Financial Statistics, Plotly}}{May 2023 -- Present}
           \resumeItemListStart
             \resumeItem{Developed a Real-Time Financial Statistics and Quantitative Analysis Discord bot in \textbf{Python} and \textbf{Pycord}}
             \resumeItem{Published Discord bot on GitHub and used in servers with over \textbf{700+} users}
-            \resumeItem{Implemented \textbf{Real-Time stock tickers} for all avaliable tickers on Yahoo Finance featuring Open, Close, Volume, High, Low, and percent change}
+            \resumeItem{Implemented \textbf{Real-Time stock tickers} for all available tickers on Yahoo Finance featuring Open, Close, Volume, High, Low, and percent change}
             \resumeItem{Utilized \textbf{Matplotlib} and \textbf{Plotly} so users can query plots for stock performance, historical volatility, MACD, Sharpe-Ratio, and Sortino Ratio}
           \resumeItemListEnd
       \resumeProjectHeading
           {\textbf{StockoDash} $|$ \emph{Python, Django, Portfolio Analysis, PyTorch, Plotly Dash, Plotly}}{July 2023 -- Present}
           \resumeItemListStart
-            \resumeItem{Developed a \textbf{Django/Plotly Dash} web application to provide users a full \textbf{quantitative analysis} of their financial portfolio}
-            \resumeItem{Utilized \textbf{HTML, JavaScript,} and \textbf{Python} to provide users complete overview of portfolio performance including \textbf{ETF Analysis, Asset Allocation, Portfolio Gross}, Portfolio Net, and Benchmark}
+            \resumeItem{Developed a \textbf{Django/Plotly Dash} web application to provide users a full \textbf{quantitative analysis} of their financial portfolio}\\
+            \resumeItem{Applied \textbf{HTML, JavaScript,} and \textbf{Python} to provide users complete overview of portfolio performance including \textbf{ETF Analysis, Asset Allocation, Portfolio Gross}, Portfolio Net, and Benchmark}
             \resumeItem{Provide users sample \textbf{Portfolio Optimization} using \textbf{PyTorch} and provide Stock Forecasting using PyTorch in time series}
-            \resumeItem{Utilize Python Plotly and Plotly Dash to provide users an overview of their portfolio composition including Sharpe Ratio}
+            \resumeItem{Adopted Python Plotly and Plotly Dash to provide users an overview of their portfolio composition including Sharpe Ratio}
           \resumeItemListEnd
     \resumeSubHeadingListEnd
-
 %-------------------------------------------
 \end{document}
